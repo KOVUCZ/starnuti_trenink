@@ -32,6 +32,11 @@ namespace starnuti_trenink
         {
             StarnouciClovek.Starnout();
             vypisVeku.Text = StarnouciClovek.Stari.ToString();
+
+            if (StarnouciClovek.Stari > 100)
+            {
+                vypisVeku.Text = "Zřejmě mrtvý";
+            }
         }
     }
 }

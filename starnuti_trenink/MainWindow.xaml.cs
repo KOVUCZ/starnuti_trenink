@@ -30,7 +30,7 @@ namespace starnuti_trenink
 
         private void tlacitkoStarnuti_Click(object sender, RoutedEventArgs e)
         {
-
+             
         }
     }
 }

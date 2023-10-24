@@ -8,13 +8,10 @@ namespace starnuti_trenink
 {
     internal class Clovek
     {
-        internal class osoba
-        {
-            public int stari { get; private set; }
+        public int Stari { get; private set; }
             public void Starnout()
             {
-                stari++;
-            }
-        }
+                Stari++;
+            }                            
     }
 }
